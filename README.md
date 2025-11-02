@@ -24,9 +24,9 @@ A powerful local AI assistant built with Python and Gradio that simplifies the c
 You must have Ollama running on your system/network and have the necessary SongBloom models downloaded locally.
 
 On Ubuntu, you must install `ffmpeg` for the audio conversion features to work:
-
+```
 sudo apt update && sudo apt install -y ffmpeg
-
+```
 ### Setup using the Installation Script
 
 Use the provided `install_songbloom_web.sh` script to set up the repository and a dedicated Python virtual environment:
